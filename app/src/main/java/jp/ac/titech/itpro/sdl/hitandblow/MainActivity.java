@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate");
+        Log.d(TAG, "onCreate test");
         setContentView(R.layout.activity_main);
 
         messageView = (TextView) findViewById(R.id.message_view);
